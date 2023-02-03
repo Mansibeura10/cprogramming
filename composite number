@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int num;
+	int i,n,c=0;
+	printf("enter an integer");
+	scanf("%d",&num);
+	for(i=1;i<=num;i++)
+	{
+		if(num%i==0)
+		c=c+1;
+	}
+
+if(c>2)
+printf("number is  a composite number");
+else
+printf("number is not  a compsite number");
+}
