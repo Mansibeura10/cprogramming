@@ -1,3 +1,4 @@
+// sum of digit of number
 #include<stdio.h>
 int main()
 {
