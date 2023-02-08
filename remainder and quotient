@@ -1,3 +1,4 @@
+// remander and quotient
 #include<stdio.h>
 int main()
 {
