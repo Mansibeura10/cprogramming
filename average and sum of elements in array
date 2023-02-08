@@ -1,3 +1,4 @@
+// average and sum of elements in array
 #include<stdio.h>
 int  main( )
 {
