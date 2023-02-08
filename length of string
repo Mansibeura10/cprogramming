@@ -1,3 +1,4 @@
+//calculate the length of string
 #include<stdio.h>
 int main(){
 
