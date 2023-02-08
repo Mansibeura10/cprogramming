@@ -1,3 +1,4 @@
+// find number of factor
 #include<stdio.h>
 int main()
 {
