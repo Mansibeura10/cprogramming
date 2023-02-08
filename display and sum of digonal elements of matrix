@@ -1,3 +1,4 @@
+// display and sum of digonal elements of matrix
 #include<stdio.h>
 
 void main()
