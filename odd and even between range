@@ -1,3 +1,4 @@
+// odd and even between range
 #include<stdio.h>  
 int main()  
 {  
