@@ -1,3 +1,4 @@
+// store and display elements of array using pointers
 #include<stdio.h>
 int main()
 {
