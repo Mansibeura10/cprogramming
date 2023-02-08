@@ -1,3 +1,4 @@
+// fibonacci seies
 #include<stdio.h>
 int main()
 {
