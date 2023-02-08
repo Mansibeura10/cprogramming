@@ -1,3 +1,4 @@
+// swap elemnts using call by refernce
 #include <stdio.h>
 void swapNumbers(int*x,int*y,int*z);
 int main()
