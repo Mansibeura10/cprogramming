@@ -1,3 +1,4 @@
+// sum and differnce of max and min in array
 #include <stdio.h>
 #define MAX_SIZE 100   
 int main()
