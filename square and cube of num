@@ -1,3 +1,4 @@
+// square and cube of number
 #include<stdio.h>
 int main()
 {
