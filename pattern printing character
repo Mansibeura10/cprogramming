@@ -1,3 +1,4 @@
+// pattern printing character
 #include<stdio.h>
 int main()
 {
