@@ -1,3 +1,4 @@
+//frequency of character
 #include <stdio.h>
 int main(){
     char str[1000],ch;
