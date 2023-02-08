@@ -1,3 +1,4 @@
+//count number of character
 #include <stdio.h>
 #include <string.h>
 
