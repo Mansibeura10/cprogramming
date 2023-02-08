@@ -1,3 +1,4 @@
+/ reverse a number
 #include<stdio.h>
 int main(){
 	int num,rev_num=0,remainder;
