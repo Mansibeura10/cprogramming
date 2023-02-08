@@ -1,3 +1,4 @@
+//percentage and AVERAGE of students marks
 #include <stdio.h>
 
 int main() {
