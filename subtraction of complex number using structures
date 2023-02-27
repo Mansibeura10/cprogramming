@@ -1,0 +1,29 @@
+//subtraction of complex number using structures
+
+#include<stdio.h>
+
+/* Declaring Structure */
+struct complex
+{
+    float real;
+    float imaginary;
+};
+
+int main()
+{
+    /* Declaring structure variable using struct complex */
+    struct complex cnum1,cnum2,diff;
+    printf("Enter real and imaginary part of first complex number:\n");
+    scanf("%f%f",&cnum1.real,&cnum1.imaginary);
+    printf("Enter real and imaginary part of second complex number:\n");
+    scanf("%f%f",&cnum2.real,&cnum2.imaginary);
+
+    diff.real=cnum1.real-cnum2.real;
+    diff.imaginary=cnum1.imaginary-cnum2.imaginary;
+    if (diff.imaginary >= 0)
+        printf("Difference of the complex numbers = %f + %fi",diff.real,diff.imaginary );
+      else
+        printf("Difference of the complex numbers = %f %fi", diff.real,diff.imaginary);
+
+     return 0;
+}
