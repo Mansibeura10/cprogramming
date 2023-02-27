@@ -1,0 +1,39 @@
+// total and percentage using structures
+
+
+#include<stdio.h>
+struct student
+{
+    int roll_no;
+	char name[20];
+	float marks[3];
+	float percent;
+	float total;
+
+};
+void main()
+{
+    int i;
+	struct student s[1];
+	for (i=0;i<1;i++)
+
+    {
+	    printf("Enter the roll number of student :");
+		scanf("%d",&s[i].roll_no);
+		printf("Enter the name of student : ");
+		scanf("%s",s[i].name);
+		printf("Enter the marks of student  in three subjects: ");
+		scanf("%f%f%f",&s[i].marks[0],&s[i].marks[1],&s[i].marks[2]);
+		s[i].total=(s[i].marks[0]+s[i].marks[1]+s[i].marks[2]);
+		s[i].percent=(s[i].marks[0]+s[i].marks[1]+s[i].marks[2]) / 3;
+		
+
+    }
+	printf("\nRoll Number\tName\ttotal Marks\tPercentage\n");
+	for (i=0;i<1;i++){
+
+        printf("%d\t\t%s\t%.2f\t\t%.2f\n", s[i].roll_no, s[i].name, s[i].total, s[i].percent);
+
+    }
+
+}
